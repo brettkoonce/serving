@@ -93,7 +93,7 @@ This is useful for servables that use delta (diff) updates between versions.
 **Aspired versions** represent the set of servable versions that should be
 loaded and ready. Sources communicate this set of servable versions for a
 single servable stream at a time. When a Source gives a new list of aspired
-versions to the Manager, it supercedes the previous list for that servable
+versions to the Manager, it supersedes the previous list for that servable
 stream. The Manager unloads any previously loaded versions that no longer
 appear in the list.
 
